@@ -1,0 +1,217 @@
+body{
+
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+color:#1e293b;
+
+}
+
+/* Header */
+
+header{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 50px;
+background:#0f172a;
+color:white;
+
+}
+
+nav a{
+
+margin-left:20px;
+text-decoration:none;
+color:white;
+font-weight:500;
+
+}
+
+nav a:hover{
+
+color:#38bdf8;
+
+}
+
+/* Hero */
+
+.hero{
+
+text-align:center;
+padding:100px 20px;
+background:#F8FAFC;
+color:#000;
+
+}
+
+.hero h2{
+
+font-size:40px;
+
+}
+
+.hero p{
+
+margin-top:10px;
+font-size:18px;
+
+}
+
+.hero button{
+
+margin-top:20px;
+padding:12px 25px;
+border:none;
+border-radius:6px;
+background:white;
+color:#4f46e5;
+font-weight:bold;
+cursor:pointer;
+border: 1px solid #4f46e5;
+}
+
+/* Services */
+
+.services{
+
+padding:70px 20px;
+text-align:center;
+
+}
+
+.service-container{
+
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+
+}
+
+.card{
+
+background:white;
+padding:25px;
+width:250px;
+border-radius:10px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+transition:transform 0.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+/* Contact Section */
+
+.contact{
+
+background:#f8fafc;
+padding:80px 20px;
+text-align:center;
+
+}
+
+.contact h2{
+
+font-size:30px;
+margin-bottom:30px;
+
+}
+
+.contact-form{
+
+max-width:400px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+
+}
+
+.input-group{
+
+text-align:left;
+margin-bottom:15px;
+
+}
+
+.input-group label{
+
+display:block;
+font-size:14px;
+margin-bottom:5px;
+
+}
+
+.input-group input,
+.input-group textarea{
+
+width:100%;
+padding:10px;
+border-radius:6px;
+border:1px solid #cbd5e1;
+
+}
+
+.input-group input:focus,
+.input-group textarea:focus{
+
+outline:none;
+border-color:#4f46e5;
+
+}
+
+.contact-form button{
+
+width:100%;
+padding:12px;
+border:none;
+background:#4f46e5;
+color:white;
+border-radius:6px;
+font-size:16px;
+cursor:pointer;
+
+}
+
+.contact-form button:hover{
+
+background:#4338ca;
+
+}
+
+/* Footer */
+
+footer{
+
+background:#0f172a;
+color:white;
+text-align:center;
+padding:20px;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+header{
+
+flex-direction:column;
+
+}
+
+.service-container{
+
+flex-direction:column;
+align-items:center;
+
+}
+
+}
